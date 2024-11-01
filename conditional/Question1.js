@@ -9,47 +9,21 @@
 
 const grade = prompt ('Enter your grade: ');
 
-
-
 if(grade < 40){
-    alert("fail");
+    console.log("fail");
 }
 else if(grade >= 40 && grade <= 58){
-    alert('pass')
+    console.log('pass')
 }
 
 if(grade >= 60 && grade <= 79){
-    alert('good')
+    console.log('good')
 }
 else if(grade >= 80 && grade <= 100){
-    alert('Excellent')
+    console.log('Excellent')
 }
 else if(grade > 100 || grade < 0){
-    alert('invalid')
+    console.log('invalid')
 }
 
-
-
-
-// const grade = prompt ("Enter your grade:");
-// if (grade < 40){
-//     console.log("fail");
-// };
-// if (grade >= 40){
-//     console.log('pass');
-// }else if (grade <=59);{
-//     console.log("pass");
-// };
-//  if (grade >=60){
-// }else if (grade<= 79){
-//     console.log("Good");
-// }
-// if (grade >=80){
-// }else if (grade <=100){
-//     console.log("Excellent")
-// }
-// if (grade < 0){
-// } else if (grade > 100){
-//     console.log ("invalid Grade Put 0 - 100");
-// }
 
